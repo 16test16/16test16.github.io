@@ -87,7 +87,7 @@ textarea {
 }
 
 
-input,
+input, /* iletişim kısmı form genişliği */
 textarea { width: 100%; }
 
 
@@ -151,6 +151,11 @@ body {
 .section-title,.section-text,.section-subtitle{ text-align: center; } /* yeteneklerimi yenilemek ortala sayfayı */
 
 
+
+
+
+/*  HEADER  */
+
 .header {
   position: fixed;
   padding-block: 15px;
@@ -159,6 +164,7 @@ body {
   box-shadow: var(--shadow);
   z-index: 4; /* ekran asagı kaydıgında fotografın arka planda kalmasını saglar. */
 }
+
 
 
 .header > .container {
@@ -214,9 +220,9 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("hero-bg.jpg");
+  background-image: url("images/hero-bg.jpg");
   min-height: 100vh;  /* anasayfa ekran boyutunu ayarlar vh ise her ekranda bu boyutun degismemesini saglar*/
-  display: grid; /* kullanılan resimlerin duzenli yerlesimini saglar*/
+  display: grid; /* kullanılan resimlerin duzenli yerlesimini saglar */
 
 }
 

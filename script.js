@@ -1,3 +1,6 @@
+
+
+
 const header = document.querySelector("[data-header]");
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 
@@ -27,7 +30,7 @@ window.addEventListener("scroll", function () {
     header.classList.add("active");
     backTopBtn.classList.add("active");
   } else {
-    header.classList.remove("active");
+    header.classList.remove("active");  
     backTopBtn.classList.remove("active");
   }
 });
